@@ -72,7 +72,7 @@ input[type=tel] {
             
             <div>
                 <label for="phno">Phone No:</label>
-                <input type="tel" id="phno" name="phno" pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number"required>
+                <input type="tel" id="phno" name="phno" pattern="[0-9]{10}"required>
             </div><br>
             <div>
                 <label for="gender">Gender:</label>

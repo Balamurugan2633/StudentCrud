@@ -73,7 +73,7 @@ input[type=textarea] {
 
             <div>
                 <label for="phno">Phone No:</label>
-                <input type="number" id="phno" name="phno" pattern="[0-9]{10}"title="Please enter a valid 10-digit phone number"value="<?php echo $row['Phone_no'];?>"required>
+                <input type="number" id="phno" name="phno" value="<?php echo $row['Phone_no'];?>"required>
             </div><br>
             <div>
                 <label for="gender">Gender:</label>
