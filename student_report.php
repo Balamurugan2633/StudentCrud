@@ -46,8 +46,6 @@ $result = mysqli_query($con, $sql);
                 <th>Email</th>
                 <th>Gender</th>
                 <th>Mobile No</th>
-                <th>Graduation</th>
-                <th>Districts</th>
                 <th>Address</th>
                 <th>Action</th>
             </tr>
@@ -60,8 +58,6 @@ $result = mysqli_query($con, $sql);
                     <td><?php echo $row['Email']; ?></td>
                     <td><?php echo $row['Gender']; ?></td>
                     <td><?php echo $row['Phone_no']; ?></td>
-                    <td><?php echo $row['Education']; ?></td>
-                    <td><?php echo $row['District']; ?></td>
                     <td><?php echo $row['Address']; ?></td>
                     <td>
                         <a href="deletedata.php?id=<?php echo $row['id']; ?>">

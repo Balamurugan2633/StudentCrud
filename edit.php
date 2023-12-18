@@ -97,62 +97,6 @@ input[type=textarea] {
                 <?php } ?>
             </div><br>
             <div>
-                <label for="education">Education:</label>
-                <?php   
-                     $edu=explode('-',$row['Education']);
-                     if($edu[0]=="UG"){
-                ?>
-                <input type="checkbox" id="ug" name="education2" value="UG" checked>UG
-                <?php   
-                     }else{
-                ?>
-                                <input type="checkbox" id="ug" name="education2" value="UG" >UG
-
-                <?php   
-                     }
-                ?>
-                <?php   
-                     if($edu[1]=="PG"){
-                ?>
-                <input type="checkbox" id="pg" name="education3" value="PG" checked>PG
-                <?php   
-                     }else{
-                ?>
-                <input type="checkbox" id="pg" name="education3" value="PG" >PG
-
-                <?php   
-                     }
-                ?>
-            </div><br>
-            <div>
-                 <label for="district">Districts:</label>
-                 <select id="district" name="district">
-                 <?php if($row['District']=="Chennai"){?>
-                 <option>Chennai</option>
-                 <option>Trichy</option>
-                 <option>Madurai</option>
-                 <option>Coimbatore</option>
-                 <?php } else if($row['District']=="Trichy"){?>
-                <option>Trichy</option>
-                <option>Chennai</option>
-                 <option>Madurai</option>
-                 <option>Coimbatore</option>
-                 <?php } else if($row['District']=="Madurai"){?>
-                <option>Madurai</option>
-                <option>Trichy</option>
-                <option>Chennai</option>
-                 <option>Coimbatore</option>
-                 <?php } else if($row['District']=="Coimbatore"){?>
-                <option>Coimbatore</option>
-                <option>Madurai</option>
-                <option>Trichy</option>
-                <option>Chennai</option>
-                <?php } ?>
-
-
-                 </select>
-            </div><br>
-            <div>
                 <label for="address">Address:</label><br>
                 <textarea rows="2" cols="50"id="address" name="address"><?php echo $row['Address'];?></textarea>
             </div>

@@ -81,20 +81,6 @@ input[type=tel] {
                 <input type="radio" id="others" name="gender" value="Others">Others
             </div><br>
             <div>
-                <label for="education">Education:</label>
-                <input type="checkbox" id="ug" name="education2" value="UG">UG
-                <input type="checkbox" id="pg" name="education3" value="PG">PG
-            </div><br>
-            <div>
-                 <label for="district">Districts:</label>
-                 <select id="district" name="district">
-                 <option>Chennai</option>
-                 <option>Trichy</option>
-                 <option>Madurai</option>
-                 <option>Coimbatore</option>
-                 </select>
-            </div><br>
-            <div>
                 <label for="address">Address:</label><br>
                 <textarea rows="2" cols="50"id="address" name="address"></textarea>
             </div>
